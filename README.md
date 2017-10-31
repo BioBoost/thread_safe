@@ -7,4 +7,11 @@ Currently it contains the following classes:
 
 ## Installation
 
-Currently the library only consists of a single header file. It just needs to be copied to `/usr/local/include`
+Currently the library only consists of a single header file. It just needs to be copied to `/usr/local/include`.
+
+```shell
+sudo su
+cd /usr/local/src
+git clone https://github.com/BioBoost/thread_safe.git
+cp -r thread_safe/include/thread_safe /usr/local/include
+```
